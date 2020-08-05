@@ -1,4 +1,196 @@
+/* définition de la police */
+
+@font-face {
+    font-family: 'Assistant-Light';
+    src: url('assets/font/Assistant-Light.otf');
+}
+
+*
+{
+    font-family: 'Assistant-Light';
+}
+
+.bloc-page
+{
+    width: 100%;
+    display: flex;
+}
+
+aside
+{
+    display: flex;
+    flex-direction: column;
+    width: 33%;
+    background-color: #FBC02D;
+}
+
+.side-box:nth-child(2)
+{
+    flex: 2;
+}
+
+.side-box:nth-child(3)
+{
+    flex: 4;
+}
+
+.picture
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.my-picture
+{
+    width: 50%;
+    border-radius: 100%;
+}
+
+.side-title
+{
+    background-color: #424242;
+    color: #FBC02D;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.my-info
+{
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.hobbies
+{
+     margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold; 
+}
+.about-me
+{
+    margin-left: 45px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-weight: bold;
+}
+
+.main-bloc
+{ 
+    width: 67%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.identity
+{
+    width: 100%;
+    margin-bottom: 50px;
+}
+
+h1
+{
+    font-size: 35px;
+    font-weight: normal;
+    margin-top: 45px;
+    margin-bottom: 30px;
+}
+
 .first-name
 {
-    color: yellow;
+    color: #FBC02D;
+    font-weight: bold;
+}
+
+.job
+{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.job, .description-box, .my-info, .about-me
+{
+    color : #424242;
+}
+
+.first-line
+{
+    background-color: #FBC02D;
+    height : 2px;
+    width : 55px;
+    margin-bottom: 50px;
+}
+
+.category-title
+{
+    display: flex;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.icone
+{
+    width: 30px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #FBC02D;
+}
+
+.line
+{
+    background-color: #FBC02D;
+    height : 2px;
+    width : 100%;
+}
+
+.description-box
+{
+    display: flex;
+    margin-top: 50px;
+}
+
+.date-and-place
+{
+    flex: 1;
+    font-weight: bold;
+}
+
+.small-icone
+{
+    width: 30px;
+    font-size: 17px;
+    color: #FBC02D;
+}
+
+.description
+{
+    flex: 3;
+}
+
+.description-title
+{
+    font-weight: bold;
+    margin-block-end: 1em;
+}
+
+.recommandation
+{
+    width: 50%;
+}
+
+.recommandation-name
+{
+    font-weight: bold;
+}
+
+.recommandation-email
+{
+    font-weight: normal;
 }
