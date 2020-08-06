@@ -1,13 +1,13 @@
 /* définition de la police */
 
 @font-face {
-    font-family: 'Assistant-Light';
-    src: url('assets/font/Assistant-Light.otf');
+    font-family: 'Roboto-Light-webfont';
+    src: url('assets/font/Roboto-Light-webfont.woff') format('woff');
 }
 
 *
 {
-    font-family: 'Assistant-Light';
+    font-family: 'Roboto-Light-webfont', sans-serif;
 }
 
 .bloc-page
@@ -48,38 +48,34 @@ aside
     border-radius: 100%;
 }
 
-.side-title
+h3
 {
     background-color: #424242;
     color: #FBC02D;
     text-align: center;
     font-size: 1.5em;
     font-weight: bold;
-    padding-bottom: 8px;
-    padding-top: 8px;
+    padding: 10px;
+    margin: 0;
 }
 
 .my-info
 {
-    margin-left: 45px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 20px 40px 0 40px;
+    font-weight: bold;
+}
+
+.about-me
+{
+    text-align: justify;
+    padding: 20px 40px 0 40px;
     font-weight: bold;
 }
 
 .hobbies
 {
-     margin-left: 45px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 20px 40px 40px 40px;
     font-weight: bold; 
-}
-.about-me
-{
-    margin-left: 45px;
-    margin-top: 30px;
-    margin-bottom: 30px;
-    font-weight: bold;
 }
 
 .main-bloc
@@ -97,10 +93,10 @@ aside
 
 h1
 {
-    font-size: 35px;
+    font-size: 2.8em;
     font-weight: normal;
-    margin-top: 45px;
-    margin-bottom: 30px;
+    margin-top: 70px;
+    margin-bottom: 10px;
 }
 
 .first-name
@@ -111,7 +107,7 @@ h1
 
 .job
 {
-    font-size: 20px;
+    font-size: 1.2em;
     font-weight: bold;
 }
 
@@ -165,7 +161,6 @@ h1
 .small-icone
 {
     width: 30px;
-    font-size: 17px;
     color: #FBC02D;
 }
 
@@ -174,10 +169,12 @@ h1
     flex: 3;
 }
 
-.description-title
+h4
 {
     font-weight: bold;
-    margin-block-end: 1em;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 1.1em;
 }
 
 .recommandation
