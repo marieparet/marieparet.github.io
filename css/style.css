@@ -22,6 +22,42 @@ body
     margin: 0px;
 }
 
+header
+{
+    margin-bottom: 65px;
+}
+
+h1
+{
+    font-size: 3.4em;
+    font-weight: normal;
+    margin-top: 70px;
+    margin-bottom: 10px;
+}
+
+h2
+{
+    font-size: 1.7em;
+    margin: 0;
+}
+
+h3
+{
+    font-size: 1.6em;
+    text-align: center;
+    padding: 10px 0 5px 0;
+    margin: 0;
+    background-color: #424242;
+    color: #B2DFDB;
+}
+
+h4
+{
+    font-size: 1.1em;
+    margin: 0;
+    margin-bottom: 15px;
+}
+
 p
 {
     color: #616161;
@@ -29,8 +65,8 @@ p
 
 .bloc-page
 {
-    width: 100%;
     display: flex;
+    width: 100%;
 }
 
 aside
@@ -41,20 +77,81 @@ aside
     background-color: #B2DFDB;
 }
 
+.main-bloc
+{ 
+    width: 67%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.side-section:nth-of-type(1)
+{
+    flex: 2;
+}
+
+.side-section:nth-of-type(2)
+{
+    flex: 4;
+}
+
+.main-section
+{
+    padding-top: 50px;
+}
+
 a, a:visited
 {
     text-decoration: none;
     color: #757575;
 }
 
-.side-box:nth-of-type(1)
+.job, .description-box, .my-info, .about-me
 {
-    flex: 2;
+    color : #424242;
 }
 
-.side-box:nth-of-type(2)
+.small-line
 {
-    flex: 4;
+    display: block;
+    width : 65px;
+    height : 2px;
+    margin-bottom: 50px;
+    background-color: #B2DFDB;
+}
+
+.line
+{
+    display: block;
+    width : 100%;
+    height : 2px;
+    background-color: #B2DFDB;
+}
+
+.icon
+{
+    font-size: 1.9em;
+    width: 30px;
+    margin-right: 20px;
+    color: #B2DFDB;
+}
+
+.small-icon
+{
+    width: 30px;
+    color: #B2DFDB;
+}
+
+.side-icon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.9em;
+    width: 60px;
+    height: 60px;
+    color: #424242;
+    border: 3px solid #424242;
+    border-radius: 50%;
 }
 
 .picture
@@ -73,74 +170,31 @@ a, a:visited
     border: 4px rgba(117, 117, 117, 0.3) solid;
 }
 
-h3
-{
-    background-color: #424242;
-    color: #B2DFDB;
-    text-align: center;
-    font-size: 1.6em;
-    padding: 10px 0 5px 0;
-    margin: 0;
-}
-
 .my-info
 {
-    padding: 20px 40px 30px 40px;
     font-weight: bold;
+    padding: 20px 40px 30px 40px;
 }
 
 .about-me
 {
     text-align: justify;
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px;
 }
 
 .hobbies
 {
-    padding: 20px 60px 40px 60px;
-    margin-top: 1em;
-    font-weight: bold; 
     display: flex;
     justify-content: space-between;
-}
-
-.side-icon
-{
-    width: 60px;
-    height: 60px;
-    font-size: 1.9em;
-    color: #424242;
-    border: 3px solid #424242;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.main-bloc
-{ 
-    width: 67%;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-header
-{
-    margin-bottom: 65px;
-}
-
-h1
-{
-    font-size: 3.4em;
-    font-weight: normal;
-    margin-top: 70px;
-    margin-bottom: 10px;
+    font-weight: bold;
+    padding: 20px 60px 40px 60px;
+    margin-top: 1em; 
 }
 
 .first-name
 {
-    color: #B2DFDB;
     font-weight: bold;
+    color: #B2DFDB;
 }
 
 .job
@@ -149,52 +203,24 @@ h1
     font-weight: bold;
 }
 
-.job, .description-box, .my-info, .about-me
-{
-    color : #424242;
-}
-
-.first-line
-{
-    display: block;
-    background-color: #B2DFDB;
-    height : 2px;
-    width : 55px;
-    margin-bottom: 50px;
-}
-
 .category-title
 {
     display: flex;
     align-items: center;
-    padding-top: 50px;
-}
-
-.icon
-{
-    width: 30px;
-    margin-right: 20px;
-    font-size: 1.9em;
-    color: #B2DFDB;
-}
-
-h2
-{
-    font-size: 1.7em;
-}
-
-.line
-{
-    display: block;
-    background-color: #B2DFDB;
-    height : 2px;
-    width : 100%;
+    padding: 10px 0px;
 }
 
 .description-box
 {
     display: flex;
     margin-top: 40px;
+}
+
+.description
+{
+    flex: 3;
+    text-align: justify;
+    padding-left: 10px;
 }
 
 .description-box-recommandation
@@ -204,31 +230,10 @@ h2
     padding-bottom: 40px;
 }
 
-
 .date-and-place
 {
     flex: 1;
     font-weight: bold;
-}
-
-.small-icon
-{
-    width: 30px;
-    color: #B2DFDB;
-}
-
-.description
-{
-    flex: 3;
-    padding-left: 10px;
-    text-align: justify;
-}
-
-h4
-{
-    margin: 0;
-    margin-bottom: 15px;
-    font-size: 1.1em;
 }
 
 .recommandation
