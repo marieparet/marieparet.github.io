@@ -1,16 +1,30 @@
-@font-face {
-    font-family: 'Roboto-Light-webfont';
-    src: url('../assets/font/Roboto-Light-webfont.woff') format('woff');
+@font-face
+{
+    font-family: 'HelveticaNeue';
+    src: url('../assets/font/HelveticaNeue-Light.woff') format('woff');
+    font-weight: normal;
+}
+
+@font-face
+{
+    font-family: 'HelveticaNeue';
+    src: url('../assets/font/HelveticaNeue-Medium.woff') format('woff');
+    font-weight: bold;
 }
 
 *
 {
-    font-family: 'Roboto-Light-webfont', sans-serif;
+    font-family: 'HelveticaNeue';
 }
 
 body
 {
     margin: 0px;
+}
+
+p
+{
+    color: #616161;
 }
 
 .bloc-page
@@ -24,13 +38,13 @@ aside
     display: flex;
     flex-direction: column;
     width: 33%;
-    background-color: #FBC02D;
+    background-color: #B2DFDB;
 }
 
 a, a:visited
 {
     text-decoration: none;
-    color: #616161;
+    color: #757575;
 }
 
 .side-box:nth-of-type(1)
@@ -62,16 +76,16 @@ a, a:visited
 h3
 {
     background-color: #424242;
-    color: #FBC02D;
+    color: #B2DFDB;
     text-align: center;
     font-size: 1.6em;
-    padding: 10px;
+    padding: 10px 0 5px 0;
     margin: 0;
 }
 
 .my-info
 {
-    padding: 20px 40px 20px 40px;
+    padding: 20px 40px 30px 40px;
     font-weight: bold;
 }
 
@@ -79,7 +93,6 @@ h3
 {
     text-align: justify;
     padding: 20px 40px 20px 40px;
-    font-weight: bold;
 }
 
 .hobbies
@@ -91,7 +104,7 @@ h3
     justify-content: space-between;
 }
 
-.side-icone
+.side-icon
 {
     width: 60px;
     height: 60px;
@@ -118,7 +131,7 @@ header
 
 h1
 {
-    font-size: 3.2em;
+    font-size: 3.4em;
     font-weight: normal;
     margin-top: 70px;
     margin-bottom: 10px;
@@ -126,13 +139,13 @@ h1
 
 .first-name
 {
-    color: #FBC02D;
+    color: #B2DFDB;
     font-weight: bold;
 }
 
 .job
 {
-    font-size: 1.4em;
+    font-size: 1.5em;
     font-weight: bold;
 }
 
@@ -144,7 +157,7 @@ h1
 .first-line
 {
     display: block;
-    background-color: #FBC02D;
+    background-color: #B2DFDB;
     height : 2px;
     width : 55px;
     margin-bottom: 50px;
@@ -157,12 +170,12 @@ h1
     padding-top: 50px;
 }
 
-.icone
+.icon
 {
     width: 30px;
     margin-right: 20px;
     font-size: 1.9em;
-    color: #FBC02D;
+    color: #B2DFDB;
 }
 
 h2
@@ -173,7 +186,7 @@ h2
 .line
 {
     display: block;
-    background-color: #FBC02D;
+    background-color: #B2DFDB;
     height : 2px;
     width : 100%;
 }
@@ -198,10 +211,10 @@ h2
     font-weight: bold;
 }
 
-.small-icone
+.small-icon
 {
     width: 30px;
-    color: #FBC02D;
+    color: #B2DFDB;
 }
 
 .description
@@ -209,11 +222,6 @@ h2
     flex: 3;
     padding-left: 10px;
     text-align: justify;
-}
-
-.description-title
-{
-    letter-spacing: -1px;
 }
 
 h4
