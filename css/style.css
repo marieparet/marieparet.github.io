@@ -80,8 +80,7 @@ aside
 .main-bloc
 { 
     width: 67%;
-    padding-left: 50px;
-    padding-right: 50px;
+    padding: 0 5%;
 }
 
 .side-section:nth-of-type(1)
@@ -137,7 +136,6 @@ a, a:visited
 
 .small-icon
 {
-    width: 30px;
     color: #B2DFDB;
 }
 
@@ -219,8 +217,12 @@ a, a:visited
 .description
 {
     flex: 3;
-    text-align: justify;
     padding-left: 10px;
+}
+
+.description p
+{
+    text-align: justify;
 }
 
 .description-box-recommandation
@@ -234,6 +236,7 @@ a, a:visited
 {
     flex: 1;
     font-weight: bold;
+    padding-left: 15px;
 }
 
 .recommandation
@@ -249,18 +252,4 @@ a, a:visited
 .recommandation-email
 {
     font-weight: normal;
-}
-
-
-@media screen and (max-width: 640px) 
-{
-    aside
-    {
-        width: 100%;
-    }
-
-    .bloc-page
-    {
-        flex-wrap: wrap;
-    }
 }

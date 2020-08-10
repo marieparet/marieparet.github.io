@@ -1,0 +1,19 @@
+@media screen and (max-width: 700px) 
+{
+    
+    .bloc-page
+    {
+        flex-wrap: wrap-reverse;
+    }
+
+    aside
+    {
+        width:  100%;
+    }
+
+    .main-bloc
+    {
+        width: 100%;
+    }
+
+}
