@@ -43,12 +43,12 @@ h2
 
 h3
 {
+    background-color: #424242;
+    color: #B2DFDB;
     font-size: 1.6em;
     text-align: center;
     padding: 10px 0 5px 0;
     margin: 0;
-    background-color: #424242;
-    color: #B2DFDB;
 }
 
 h4
@@ -71,10 +71,10 @@ p
 
 aside
 {
+    background-color: #B2DFDB;
     display: flex;
     flex-direction: column;
     width: 33%;
-    background-color: #B2DFDB;
 }
 
 .main-bloc
@@ -111,46 +111,46 @@ a, a:visited
 
 .small-line
 {
+    background-color: #B2DFDB;
     display: block;
     width : 65px;
     height : 2px;
     margin-bottom: 50px;
-    background-color: #B2DFDB;
 }
 
 .line
 {
+    background-color: #B2DFDB;
     display: block;
     width : 100%;
     height : 2px;
-    background-color: #B2DFDB;
 }
 
 .icon
 {
+    color: #B2DFDB;
     font-size: 1.9em;
     width: 30px;
     margin-right: 20px;
-    color: #B2DFDB;
 }
 
 .small-icon
 {
-    padding-right: 10px;
     color: #B2DFDB;
+    padding-right: 10px;
 }
 
 .side-icon
 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.9em;
-    width: 60px;
-    height: 60px;
     color: #424242;
     border: 3px solid #424242;
     border-radius: 50%;
+    font-size: 1.9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60px;
+    height: 60px;
 }
 
 .picture
@@ -163,10 +163,10 @@ a, a:visited
 
 .my-picture
 {
-    width: 200px;
-    height: 200px;
     border-radius: 100%;
     border: 4px rgba(117, 117, 117, 0.3) solid;
+    width: 200px;
+    height: 200px;
 }
 
 .my-info
@@ -183,17 +183,17 @@ a, a:visited
 
 .hobbies
 {
+    font-weight: bold;
     display: flex;
     justify-content: space-between;
-    font-weight: bold;
     padding: 20px 50px 40px 50px;
     margin-top: 1em; 
 }
 
 .first-name
 {
-    font-weight: bold;
     color: #B2DFDB;
+    font-weight: bold;
 }
 
 .job
@@ -229,20 +229,21 @@ a, a:visited
 .description-box-recommandation
 {
     display: flex;
-    margin-top: 20px;
-    padding-bottom: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .date-and-place-box
 {
-    flex: 1;
     display: flex;
+    flex: 1;
     font-weight: bold;
 }
 
 .recommandation
 {
     width: 50%;
+    padding-bottom: 20px;
 }
 
 .recommandation-name
