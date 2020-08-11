@@ -14,6 +14,53 @@
     .main-bloc
     {
         width: 100%;
+        box-sizing: border-box;
+    }
+
+    h1
+    {
+        font-size: 2.7em;
+    }
+
+    h2
+    {
+        font-size: 1.4em;
+    }
+
+    h4
+    {
+        font-size: 1em;
+        margin-top: 15px;
+    }
+
+    .hobbies
+    {
+        padding: 20px 40px 40px 40px;
+    }
+
+    .job
+    {
+        font-size: 1.2em;
+    }
+
+    .description-box-recommandation
+    {
+        flex-direction: column;
+    }
+
+    .recommandation
+    {
+        width: auto;
+    }
+
+    .description-box
+    {
+        flex-direction: column;
+    }
+
+    .description p
+    {
+        text-align: left;
     }
 
 }

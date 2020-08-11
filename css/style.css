@@ -136,6 +136,7 @@ a, a:visited
 
 .small-icon
 {
+    padding-right: 10px;
     color: #B2DFDB;
 }
 
@@ -185,7 +186,7 @@ a, a:visited
     display: flex;
     justify-content: space-between;
     font-weight: bold;
-    padding: 20px 60px 40px 60px;
+    padding: 20px 50px 40px 50px;
     margin-top: 1em; 
 }
 
@@ -232,11 +233,11 @@ a, a:visited
     padding-bottom: 40px;
 }
 
-.date-and-place
+.date-and-place-box
 {
     flex: 1;
+    display: flex;
     font-weight: bold;
-    padding-left: 15px;
 }
 
 .recommandation
