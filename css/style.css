@@ -1,52 +1,43 @@
-@font-face
-{
+@font-face {
     font-family: 'HelveticaNeue';
     src: url('../assets/font/HelveticaNeue-Light.woff') format('woff');
     font-weight: normal;
 }
 
-@font-face
-{
+@font-face {
     font-family: 'HelveticaNeue';
     src: url('../assets/font/HelveticaNeue-Medium.woff') format('woff');
     font-weight: bold;
 }
 
-*
-{
+* {
     font-family: 'HelveticaNeue';
 }
 
-body
-{
+body {
     margin: 0px;
 }
 
-header
-{
+header {
     margin-bottom: 65px;
 }
 
-h1
-{
+h1 {
     font-size: 3.4em;
     margin-top: 70px;
     margin-bottom: 10px;
 }
 
-h1, .recommandation-email
-{
+h1, .recommandation-email {
     font-weight: normal;
 }
 
-h2
-{
+h2 {
     font-size: 1.7em;
     margin: 0;
 }
 
-h3
-{
+h3 {
     background-color: #424242;
     color: #B2DFDB;
     font-size: 1.6em;
@@ -55,112 +46,93 @@ h3
     margin: 0;
 }
 
-h4
-{
+h4 {
     font-size: 1.1em;
     margin: 0;
     margin-bottom: 15px;
 }
 
-p
-{
+p {
     color: #616161;
 }
 
-.bloc-page
-{
+.bloc-page {
     display: flex;
     width: 100%;
 }
 
-aside
-{
+aside {
     display: flex;
     flex-direction: column;
     width: 33%;
 }
 
-aside, .small-line, .line
-{
+aside, .small-line, .line {
     background-color: #B2DFDB;
 }
 
-.main-bloc
-{ 
+.main-bloc { 
     width: 67%;
     padding: 0 5%;
 }
 
-.side-section:nth-of-type(1)
-{
+.side-section:nth-of-type(1) {
     flex: 2;
 }
 
-.side-section:nth-of-type(2)
-{
+.side-section:nth-of-type(2) {
     flex: 4;
 }
 
-.main-section
-{
+.main-section {
     padding-top: 50px;
 }
 
-a, a:visited
-{
+a, a:visited {
     text-decoration: none;
     color: #757575;
 }
 
-a:hover
-{
+a:hover {
     text-decoration: underline;
 }
 
-.job, .description-box, .my-info, .about-me, .side-icon
-{
+.job, .description-box, .my-info, .about-me, .side-icon {
     color : #424242;
 }
 
-.my-info, .hobbies, .first-name, .job, .date-and-place-box, .recommandation-name
-{
+.my-info, .hobbies, .first-name, .job, .date-and-place-box, .recommandation-name {
     font-weight: bold;
 }
 
-.icon, .small-icon, .first-name
-{
+.icon, .small-icon, .first-name {
     color: #B2DFDB;
 }
 
-.small-line
-{
+.small-line {
     display: block;
     width : 65px;
     height : 2px;
     margin-bottom: 50px;
 }
 
-.line
-{
+.line {
     display: block;
     width : 100%;
     height : 2px;
 }
 
-.icon
-{
+.icon {
     font-size: 1.9em;
     width: 30px;
     padding-right: 20px;
 }
 
-.small-icon
-{
+.small-icon {
     padding-right: 10px;
 }
 
-.side-icon
-{
+.side-icon {
     border: 3px solid #424242;
     border-radius: 50%;
     font-size: 1.9em;
@@ -171,85 +143,72 @@ a:hover
     height: 60px;
 }
 
-.picture
-{
+.picture {
     display: flex;
     justify-content: center;
     margin-bottom: 30px;
     margin-top: 50px;
 }
 
-.my-picture
-{
+.my-picture {
     border-radius: 100%;
     border: 4px rgba(117, 117, 117, 0.3) solid;
     width: 200px;
     height: 200px;
 }
 
-.my-info
-{
+.my-info {
     padding: 20px 40px 30px 40px;
 }
 
-.about-me
-{
+.about-me {
     text-align: justify;
     padding: 20px 40px;
 }
 
-.hobbies
-{
+.hobbies {
     display: flex;
     justify-content: space-between;
     padding: 20px 50px 40px 50px;
     margin-top: 1em; 
 }
 
-.job
-{
+.job {
     font-size: 1.5em;
 }
 
-.category-title
-{
+.category-title {
     display: flex;
     align-items: center;
     padding: 10px 0px;
 }
 
-.description-box
-{
+.description-box {
     display: flex;
     margin-top: 40px;
 }
 
-.description
-{
+.description {
     flex: 3;
     padding-left: 10px;
 }
 
-.description p
-{
+.description p {
     text-align: justify;
 }
 
-.description-box-recommandation
-{
+.description-box-recommandation {
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
-.date-and-place-box
-{
+.date-and-place-box {
     display: flex;
     flex: 1;
 }
 
-.recommandation
-{
+.recommandation {
     width: 50%;
     padding-bottom: 20px;
 }
