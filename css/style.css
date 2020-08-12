@@ -112,6 +112,11 @@ a, a:visited
     color: #757575;
 }
 
+a:hover
+{
+    text-decoration: underline;
+}
+
 .job, .description-box, .my-info, .about-me, .side-icon
 {
     color : #424242;
