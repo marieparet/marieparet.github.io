@@ -30,9 +30,13 @@ header
 h1
 {
     font-size: 3.4em;
-    font-weight: normal;
     margin-top: 70px;
     margin-bottom: 10px;
+}
+
+h1, .recommandation-email
+{
+    font-weight: normal;
 }
 
 h2
@@ -71,10 +75,14 @@ p
 
 aside
 {
-    background-color: #B2DFDB;
     display: flex;
     flex-direction: column;
     width: 33%;
+}
+
+aside, .small-line, .line
+{
+    background-color: #B2DFDB;
 }
 
 .main-bloc
@@ -104,14 +112,23 @@ a, a:visited
     color: #757575;
 }
 
-.job, .description-box, .my-info, .about-me
+.job, .description-box, .my-info, .about-me, .side-icon
 {
     color : #424242;
 }
 
+.my-info, .hobbies, .first-name, .job, .date-and-place-box, .recommandation-name
+{
+    font-weight: bold;
+}
+
+.icon, .small-icon, .first-name
+{
+    color: #B2DFDB;
+}
+
 .small-line
 {
-    background-color: #B2DFDB;
     display: block;
     width : 65px;
     height : 2px;
@@ -120,7 +137,6 @@ a, a:visited
 
 .line
 {
-    background-color: #B2DFDB;
     display: block;
     width : 100%;
     height : 2px;
@@ -128,21 +144,18 @@ a, a:visited
 
 .icon
 {
-    color: #B2DFDB;
     font-size: 1.9em;
     width: 30px;
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
 .small-icon
 {
-    color: #B2DFDB;
     padding-right: 10px;
 }
 
 .side-icon
 {
-    color: #424242;
     border: 3px solid #424242;
     border-radius: 50%;
     font-size: 1.9em;
@@ -171,7 +184,6 @@ a, a:visited
 
 .my-info
 {
-    font-weight: bold;
     padding: 20px 40px 30px 40px;
 }
 
@@ -183,23 +195,15 @@ a, a:visited
 
 .hobbies
 {
-    font-weight: bold;
     display: flex;
     justify-content: space-between;
     padding: 20px 50px 40px 50px;
     margin-top: 1em; 
 }
 
-.first-name
-{
-    color: #B2DFDB;
-    font-weight: bold;
-}
-
 .job
 {
     font-size: 1.5em;
-    font-weight: bold;
 }
 
 .category-title
@@ -237,21 +241,10 @@ a, a:visited
 {
     display: flex;
     flex: 1;
-    font-weight: bold;
 }
 
 .recommandation
 {
     width: 50%;
     padding-bottom: 20px;
-}
-
-.recommandation-name
-{
-    font-weight: bold;
-}
-
-.recommandation-email
-{
-    font-weight: normal;
 }
