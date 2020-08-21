@@ -4,7 +4,7 @@
 ## Getting started
 
 ```bash
-$ git clone xxx
+$ git clone git@github.com:marieparet/marieparet.github.io.git
 $ open index.html
 ```
 
