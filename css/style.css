@@ -48,7 +48,7 @@ h1 {
     margin-bottom: 10px;
 }
 
-h1, .recommandation-email {
+h1 {
     font-weight: normal;
 }
 
@@ -115,7 +115,7 @@ a:hover {
     color : #424242;
 }
 
-.my-info, .hobbies, .first-name, .job, .date-and-place-box, .recommandation-name {
+.my-info, .hobbies, .first-name, .job, .date-and-place-box, .skills-name {
     font-weight: bold;
 }
 
@@ -197,7 +197,7 @@ a:hover {
     text-align: justify;
 }
 
-.description-box-recommandation {
+.description-box-skills {
     display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -208,7 +208,7 @@ a:hover {
     flex: 1;
 }
 
-.recommandation {
+.skills {
     width: 50%;
     padding-bottom: 20px;
 }
