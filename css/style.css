@@ -119,7 +119,7 @@ a:hover {
     color : #424242;
 }
 
-.my-info, .hobbies, .first-name, .job, .date-and-place-box, .skills-name {
+.my-info, .hobbies, .first-name, .job, .date-and-place-box {
     font-weight: bold;
 }
 
@@ -163,10 +163,6 @@ a:hover {
 
 .my-info, .languages {
     padding: 20px 40px 30px 40px;
-}
-
-.language {
-    font-weight: bold;
 }
 
 .about-me {
