@@ -77,11 +77,15 @@ p {
 }
 
 .side-section:nth-of-type(1) {
-    flex: 2;
+    flex: 1;
 }
 
 .side-section:nth-of-type(2) {
-    flex: 4;
+    flex: 1;
+}
+
+.side-section:nth-of-type(3) {
+    flex: 3;
 }
 
 .picture {
@@ -157,8 +161,12 @@ a:hover {
     height: 60px;
 }
 
-.my-info {
+.my-info, .languages {
     padding: 20px 40px 30px 40px;
+}
+
+.language {
+    font-weight: bold;
 }
 
 .about-me {
@@ -198,7 +206,6 @@ a:hover {
 }
 
 .description-box-skills {
-    display: flex;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -209,6 +216,18 @@ a:hover {
 }
 
 .skills {
-    width: 50%;
     padding-bottom: 20px;
+}
+
+.skill {
+    display: flex;
+    align-items: center;
+}
+
+.one-skill {
+    margin: 10px 0 10px 0;
+}
+
+.subtext {
+    font-weight: normal;
 }
