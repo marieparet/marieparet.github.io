@@ -1,4 +1,4 @@
-# Transform my resume into a website
+# Transformation of my resume into a responsive website
 
 
 ## Getting started
