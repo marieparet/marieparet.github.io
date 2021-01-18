@@ -128,7 +128,7 @@ a:hover {
     font-weight: bold;
 }
 
-.icon, .small-icon, .first-name {
+.icon, .small-icon, .first-name, .link-icon {
     color: #B2DFDB;
 }
 
@@ -153,6 +153,10 @@ a:hover {
 
 .small-icon {
     padding-right: 10px;
+}
+
+.link-icon {
+    padding-left: 10px;
 }
 
 .side-icon {
