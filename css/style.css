@@ -103,7 +103,12 @@ p {
 }
 
 .main-section {
-    padding-top: 50px;
+    padding-top: 40px;
+}
+
+.last-section {
+    padding-top: 40px;
+    padding-bottom: 20px;
 }
 
 a, a:visited {
@@ -203,16 +208,11 @@ a:hover {
 
 .description-box-skills {
     padding-top: 20px;
-    padding-bottom: 20px;
 }
 
 .date-and-place-box {
     display: flex;
     flex: 1;
-}
-
-.skills {
-    padding-bottom: 20px;
 }
 
 .skill {
